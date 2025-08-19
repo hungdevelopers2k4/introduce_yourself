@@ -1,0 +1,7 @@
+@use './variable.scss' as *;
+.ring-offset-background {
+    --tw-ring-offset-color: hsl($background);
+}
+.dark:hover {
+    background-color: $primary-dark;
+}

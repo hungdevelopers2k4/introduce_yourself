@@ -1,7 +1,19 @@
+@use '../font/font.scss' as*;
 *{
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
+    list-style-type: none;
 }
-header{
-    background-color: black;
+
+::before,::after{
+    box-sizing: border-box;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-space-display, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    // font-weight: 600;
+}
+
+
+
+

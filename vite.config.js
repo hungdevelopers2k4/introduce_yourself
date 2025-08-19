@@ -7,4 +7,8 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  important: true,
+  corePlugins: {
+    preflight: false,
+  },
 })
