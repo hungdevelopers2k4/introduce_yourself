@@ -9,6 +9,11 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="src/main.jsx"></script>
+    <!-- Vite sẽ tự động thay thế script này khi build. Đoạn dưới chỉ dùng cho dev -->
+    <script type="module">
+      if (import.meta.env && import.meta.env.DEV) {
+        import('/src/main.jsx');
+      }
+    </script>
   </body>
 </html>
