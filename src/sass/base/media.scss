@@ -5,6 +5,10 @@
     }
 }
 
+.container-wide{
+    width: 100%;
+    margin: 0 auto;
+}
 @media (min-width: 1280px) {
     .container-wide {
         max-width: 72rem;

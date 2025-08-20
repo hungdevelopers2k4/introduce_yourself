@@ -15,14 +15,12 @@
     height: 100%;
     overflow: hidden;
   }
-
   &__line {
     position: absolute;
     height: 2px;
     width: 100%;
     background: linear-gradient(90deg, transparent, var(--line-color), transparent);
     animation: slide 8s linear infinite;
-    
     &::before {
       content: '';
       position: absolute;
@@ -30,41 +28,32 @@
       height: 100%;
       background: linear-gradient(90deg, transparent, #A1A1AA, transparent);
     }
-
     &--1 {
       top: 0;
       --line-color: #A1A1AA;
       animation-delay: 0s;
     }
-
     &--2 {
-      top: 15%;
+      top: 10%;
       --line-color: #27272A;
       animation-delay: 1s;
     }
-
     &--3 {
-      top: 30%;
+      top: 20%;
       --line-color: #A1A1AA;
       animation-delay: 2s;
     }
-
     &--4 {
-      top: 45%;
+      top: 30%;
       --line-color: #27272A;
       animation-delay: 3s;
     }
   }
   &__content{
     min-height: 360px;
-    padding: 20px;
-    // >img{
-    //     width: 425px;
-    //     height: 425px;
-    // }
+  
   }
 }
-
 @keyframes slide {
   0% {
     transform: translateX(100%);

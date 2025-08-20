@@ -5,3 +5,15 @@
 .dark:hover {
     background-color: $primary-dark;
 }
+.background--all{
+    background: linear-gradient(
+      135deg, 
+      rgba(161, 161, 170, 0.05) 0%, 
+      rgba(156, 156, 157, 0.05) 50%, 
+      rgba(222, 222, 222, 0.05) 100%
+    );
+}
+.container-narrow {
+    max-width: 56rem;
+    margin: 0 auto;
+}
