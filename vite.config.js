@@ -7,6 +7,11 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  server: {
+    headers: {
+      'Content-Type': 'application/javascript'
+    }
+  },
   important: true,
   corePlugins: {
     preflight: false,

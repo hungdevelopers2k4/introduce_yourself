@@ -1,4 +1,4 @@
-import StarIcon from '../components/StarIcon'
+import StarIcon from '../components/StarIcon.jsx'
 import React from 'react'
 export const skillsData = [
   {

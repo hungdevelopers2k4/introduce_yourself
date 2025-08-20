@@ -1,5 +1,5 @@
-import ClientCard from '../components/ClientCard'
-import { clientsData } from '../data/clientsData'
+import ClientCard from '../components/ClientCard.jsx'
+import { clientsData } from '../data/clientsData.js'
 
 const Clients = () => {
   return (
