@@ -1,6 +1,6 @@
 // Skill.jsx
-import SkillCard from '../components/SkillCard.jsx'
-import { skillsData } from '../data/skillsData.js'
+import SkillCard from '../components/SkillCard'
+import { skillsData } from '../data/skillsData'
 
 const Skill = () => {
   return (

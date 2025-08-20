@@ -1,6 +1,6 @@
 // MyProjects.jsx
-import ProjectCard from '../components/ProjectCard.jsx'
-import { projectsData } from '../data/projectsData.js'
+import ProjectCard from '../components/ProjectCard'
+import { projectsData } from '../data/projectsData'
 
 const MyProjects = () => {
   return (
