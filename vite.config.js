@@ -22,6 +22,15 @@ export default defineConfig({
   base: '/introduce_yourself/', 
   build: {
     outDir: 'dist',
-    assetsDir: 'assets'
-  }
+    assetsDir: 'assets',
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html')
+      },
+      output: {
+        assetFileNames: 'assets/[name].[ext]',
+        entryFileNames: 'assets/[name].js'
+      }
+    }
+  },
 })
