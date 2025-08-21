@@ -2,11 +2,15 @@ header{
     position: fixed;
     max-width: 56rem;
     background-color: rgba(0, 0, 0, 0.2);
-    // padding: 16px;
     left: 50%;
     transform: translate(-50%, 0);
     top: 16px;
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px); 
     border-radius: 8px; 
+}
+@media (max-width: 640px) {
+    header {
+        top:0;
+    }
 }

@@ -3,8 +3,8 @@ import { Link } from "react-router"
 
 const ClientCard = ({ quote, name, username, image, type }) => {
   const linkClassName = type === "type1" 
-    ? "w-full inline-block bg-white dark:bg-neutral-900 rounded-2xl shadow-md ring-1 ring-gray-900/5 cursor-default pointer-events-none mb-4"
-    : "w-full inline-block bg-white dark:bg-neutral-900 rounded-2xl shadow-md ring-1 ring-gray-900/5 p-6 cursor-default pointer-events-none mb-4"
+    ? "w-full inline-block bg-white rounded-2xl shadow-md ring-1 ring-gray-900/5 cursor-default pointer-events-none mb-4"
+    : "w-full inline-block bg-white rounded-2xl shadow-md ring-1 ring-gray-900/5 p-6 cursor-default pointer-events-none mb-4"
   const blockquoteClassName = type === "type1" 
     ? "text-gray-900 dark:text-gray-100 p-6 text-lg font-semibold leading-7 tracking-tight sm:text-xl sm:leading-8"
     : "text-gray-900 dark:text-gray-100"
@@ -15,7 +15,7 @@ const ClientCard = ({ quote, name, username, image, type }) => {
     <Link href="" className={linkClassName}>
       <figure>
         <blockquote className={blockquoteClassName}>
-          <p className="whitespace-pre-line">
+          <p className="text-gray-900 ">
             {quote}
           </p>
         </blockquote>
@@ -29,7 +29,7 @@ const ClientCard = ({ quote, name, username, image, type }) => {
                 <path d="m9 12 2 2 4-4"></path>
               </svg>
             </div>
-            <div className="">
+            <div>
               {username}
             </div>
           </div>

@@ -49,7 +49,7 @@ const Contact = () => {
                 </div>
                 <button 
                     type="submit" 
-                    className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-gray-300/70 text-gray-foreground hover:bg-gray-300/90 dark:bg-gray-700 dark:hover:bg-gray-700/90 h-10 px-4 py-2 w-full"
+                    className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-gray-foreground bg-black text-white hover:bg-black/80 h-10 px-4 py-2 w-full"
                 >
                     Gửi tin nhắn
                 </button>

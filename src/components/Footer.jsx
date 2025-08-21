@@ -20,15 +20,15 @@ const Footer = () => {
                     <Link to="/" className="">
                         <div className="flex items-center text-primary-900 dark:text-primary-100 gap-3">
                             <img src={logo} alt="PixelProfile logo" className='h-8 w-8 rounded-full'/>
-                            Profile
+                            Hồ sơ
                         </div>
                     </Link>
                     <div className="text-lg font-semibold">
-                        Profile
+                        Hồ sơ
                     </div>
                     <p className='text-sm opacity-70'>Xây dựng những trang web đẹp mắt, tiện dụng và mang lại kết quả..</p>
                 </div>
-                <div className="grid md:grid-cols-3 gap-12 items-start mt-6 md:mt-0">
+                <div className="grid dark:invert md:grid-cols-3 grid-cols-2  gap-12 items-start mt-6 md:mt-0">
                     <div className="flex flex-col gap-4 justify-center w-full text-xs">
                         <p className='text-slate-900 dark:text-slate-100 font-light text-base'>
                             Navigation

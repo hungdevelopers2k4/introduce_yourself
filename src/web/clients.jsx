@@ -10,7 +10,7 @@ const Clients = () => {
       </div>
       <div className="relative isolate">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl xl:mx-0 xl:max-w-none text-sm leading-6 text-gray-900 dark:text-gray-100 columns-1 md:columns-2 xl:columns-3 gap-4">
+          <div className="mx-auto max-w-2xl xl:mx-0 xl:max-w-none text-sm leading-6 text-gray-900 columns-1 md:columns-2 xl:columns-3 gap-4">
             {clientsData.map(client => (
               <ClientCard
                 key={client.id}

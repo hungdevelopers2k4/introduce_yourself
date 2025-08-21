@@ -5,7 +5,7 @@ const SkillCard = ({ title, description, icon }) => {
         {icon}
       </div>
       <h3 className="text-lg font-semibold">{title}</h3>
-      <p className="text-sm text-gray-800 dark:text-gray-200">
+      <p className="text-sm dark:invert text-gray-800 dark:text-gray-200">
         {description}
       </p>
     </div>

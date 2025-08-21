@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
+
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
@@ -8,13 +9,12 @@ export default defineConfig({
     tailwindcss()
   ],
   server: {
-    headers: {
-      'Content-Type': 'application/javascript'
-    }
+    port: 5173,
+    allowedHosts: [
+      '.ngrok-free.app',
+    ]
   },
-  important: true,
-  corePlugins: {
-    preflight: false,
-  },
-  base: "/introduce_yourself/"
+  preview: {
+    host: true
+  }
 })

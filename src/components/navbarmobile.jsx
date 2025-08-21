@@ -25,11 +25,11 @@ const NavbarMobile = ({ isMenuOpen, setIsMenuOpen, handleSmoothScroll }) => {
                 className="absolute inset-0 bg-black/30"
                 onClick={() => setIsMenuOpen(false)}
             ></div>
-            <div className={`absolute top-0 right-0 h-full w-3/4 max-w-sm bg-white dark:bg-gray-900 shadow-lg transform transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+            <div className={`absolute top-0 right-0 h-full w-full md:w-3/4 max-w-sm bg-white shadow-lg transform transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
                 <div className="p-5 border-b border-gray-200 dark:border-gray-700 flex justify-between items-center">
                     <div className="flex gap-2 items-center text-xl font-bold">
                         <img src={logo} alt="" className='h-8 w-8 rounded-4xl' />
-                        Profile
+                        Hồ sơ
                     </div>
                     <button 
                         onClick={() => setIsMenuOpen(false)}
@@ -44,25 +44,25 @@ const NavbarMobile = ({ isMenuOpen, setIsMenuOpen, handleSmoothScroll }) => {
                 <nav className="p-5 flex flex-col space-y-4">
                     <button 
                         onClick={() => handleSmoothScroll('about')}
-                        className="text-left py-3 px-4 rounded-md transition-colors hover:bg-gray-100 dark:hover:bg-gray-800 font-medium text-black dark:text-gray-200"
+                        className="text-left py-3 px-4 rounded-md transition-colors dark:invert hover:bg-gray-100 dark:hover:bg-gray-800 font-medium text-black dark:text-gray-200"
                     >
                         Giới thiệu
                     </button>
                     <button 
                         onClick={() => handleSmoothScroll('work')}
-                        className="text-left py-3 px-4 rounded-md transition-colors hover:bg-gray-100 dark:hover:bg-gray-800 font-medium text-black dark:text-gray-200"
+                        className="text-left py-3 px-4 rounded-md transition-colors dark:invert hover:bg-gray-100 dark:hover:bg-gray-800 font-medium text-black dark:text-gray-200"
                     >
                         Làm việc
                     </button>
                     <button 
                         onClick={() => handleSmoothScroll('skills')}
-                        className="text-left py-3 px-4 rounded-md transition-colors hover:bg-gray-100 dark:hover:bg-gray-800 font-medium text-black dark:text-gray-200"
+                        className="text-left py-3 px-4 rounded-md transition-colors dark:invert hover:bg-gray-100 dark:hover:bg-gray-800 font-medium text-black dark:text-gray-200"
                     >
                         Kỹ năng
                     </button>
                     <button 
                         onClick={() => handleSmoothScroll('contact')}
-                        className="text-left py-3 px-4 rounded-md transition-colors hover:bg-gray-100 dark:hover:bg-gray-800 font-medium text-black dark:text-gray-200"
+                        className="text-left py-3 px-4 rounded-md transition-colors dark:invert hover:bg-gray-100 dark:hover:bg-gray-800 font-medium text-black dark:text-gray-200"
                     >
                         Liên hệ
                     </button>

@@ -8,7 +8,7 @@ const about = () => {
                     <h1 className='text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight'>
                         Giới thiệu
                     </h1>
-                    <p className='text-base md:text-lg max-w-xl mt-2 text-gray-700 dark:text-gray-300'>
+                    <p className='text-base md:text-lg max-w-xl mt-2 text-gray-700'>
                         Tôi là một Developer Front-end mới. Công việc chính của tôi là biến những bản thiết kế thành website sống động, mượt mà và dễ sử dụng. Tôi đặc biệt quan tâm đến trải nghiệm người dùng và hiệu suất, vì tôi tin một website chạy nhanh, thân thiện chính là chìa khóa để giữ chân khách hàng. Rất mong được học hỏi , đóng góp để tạo ra những sản phẩm có giá trị thực cho doanh nghiệp và bản thân.
                     </p>
                 </div>
