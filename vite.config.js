@@ -22,7 +22,6 @@ export default defineConfig({
   base: '/introduce_yourself/', 
   build: {
     outDir: 'dist',
-    assetsDir: 'assets',
-   
-  },
+    assetsDir: 'assets'
+  }
 })
