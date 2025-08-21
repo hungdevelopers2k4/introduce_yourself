@@ -19,17 +19,19 @@ export default defineConfig({
   preview: {
     host: true
   },
-  base: '/introduce_yourself/', 
+  base: '/my_project/',
   build: {
     outDir: 'dist',
-    assetsDir: 'assets',
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html')
-      },
+      }
+    },
+    assetsDir: 'assets',
+    rollupOptions: {
       output: {
         assetFileNames: 'assets/[name].[ext]',
-        entryFileNames: 'assets/[name].js'
+         entryFileNames: 'assets/[name].js'
       }
     }
   },
