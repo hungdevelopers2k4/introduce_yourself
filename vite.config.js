@@ -19,18 +19,10 @@ export default defineConfig({
   preview: {
     host: true
   },
-  base: '/introduce_yourself/', // ĐỔI THÀNH TÊN REPO CỦA BẠN
+  base: '/introduce_yourself/', 
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    rollupOptions: {
-      input: {
-        main: resolve(__dirname, 'index.html')
-      },
-      output: {
-        assetFileNames: 'assets/[name].[ext]',
-        entryFileNames: 'assets/[name].js'
-      }
-    }
+   
   },
 })
