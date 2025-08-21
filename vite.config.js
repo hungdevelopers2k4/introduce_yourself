@@ -26,6 +26,13 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html')
       }
+    },
+    assetsDir: 'assets',
+    rollupOptions: {
+      output: {
+        assetFileNames: 'assets/[name].[ext]',
+         entryFileNames: 'assets/[name].js'
+      }
     }
   },
 })
